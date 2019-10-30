@@ -6,7 +6,12 @@ const FontPreview = ({ font, text }) => {
 
   return (
     <div className="font-preview">
-      <div className="font-name">{name}</div>
+      <div className="font-name">
+        {name}
+        <span className="add-button">
+          <i className="material-icons">control_point</i>
+        </span>
+      </div>
 
       <div
         className="text-preview"

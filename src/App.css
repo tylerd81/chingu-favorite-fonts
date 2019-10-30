@@ -137,6 +137,12 @@ footer a {
 
   text-decoration: none;
 }
+
+.add-button {
+  cursor: pointer;
+  color: red;
+  float: right;
+}
 @media (max-width: 800px) {
   #preview-text-input {
     display: none;
