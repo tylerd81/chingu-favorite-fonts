@@ -113,16 +113,15 @@ function App() {
         ) : (
           <h2 className="no-more-results">No More Results</h2>
         )}
-
-        <div id="top-link">
-          <a href="#top">
-            <div>
-              <i className="material-icons">arrow_upward</i>
-            </div>
-            Top
-          </a>
-        </div>
       </MainContainer>
+      <div id="top-link">
+        <a href="#top">
+          <div>
+            <i className="material-icons">arrow_upward</i>
+          </div>
+          Top
+        </a>
+      </div>
       <Footer />
     </div>
   );

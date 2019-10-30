@@ -112,7 +112,13 @@ nav a {
 footer {
   background-color: lightgray;
   padding: 2rem;
+  text-align: center;
 }
+footer a {
+  color: #666;
+  text-decoration: none;
+}
+
 #top-link {
   position: sticky;
   bottom: 2rem;

@@ -4,8 +4,13 @@ const Footer = () => {
   return (
     <footer>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
-        facilis eligendi quam distinctio quasi. Ratione.
+        This application was created for the Chingu Voyage 13 Prework
+        assignment. You can view the source{" "}
+        <a href="https://github.com/tylerd81/chingu-favorite-fonts">here</a>.
+      </p>
+      <p>
+        Created by <a href="https://github.com/tylerd81/">Tyler D</a> October
+        29, 2019
       </p>
     </footer>
   );
