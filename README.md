@@ -16,10 +16,10 @@ load more fonts by clicking the "Load More" button at the bottom.
 
 ## Installation
 
-    * Clone the Github repository
-    * **npm install**
-    * **npm start**
-    * Browse to http://localhost:3000
+    - Clone the Github repository
+    - **npm install**
+    - **npm start**
+    - Browse to http://localhost:3000
 
 
 ## See the application running
