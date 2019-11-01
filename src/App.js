@@ -31,12 +31,19 @@ function App() {
 
       // convert the JSON data returned from Google into easier to manage objects.
       // remove the data that isn't really needed for this app.
+
+      // fix the url so that it is requested over https
       data.items.forEach(item => {
-        const font = {
-          fontName: item.family,
-          fontUrl: item.files.regular
-        };
-        googleFonts.push(font);
+        const fontUrl = item.files.regular;
+        if (fontUrl) {
+          const font = {
+            fontName: item.family,
+            fontUrl: fontUrl.substring(0, 4) + "s" + fontUrl.substring(4)
+          };
+          googleFonts.push(font);
+        } else {
+          console.log(`Not Found: ${item.fontName}`);
+        }
       });
 
       // fontList holds all the fonts and doesn't change
